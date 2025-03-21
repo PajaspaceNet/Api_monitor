@@ -1,16 +1,46 @@
 # API_MONITOR
 
-Obsah
-[O čem to je](#ocemtoje)  <br>
- 
-Co dela <br>
-Kratky navod na spusteni <br>
-Instalace <br>
-Kde bezi <br>
-RestApi<br>
-Architektura<br>
-Mozna vylepseni <br>
-Poznamky<br>
+## Obsah
+
+- [O čem to je](#o-čem-to-je-)
+- [Co dělá](#co-aplikace-dělá)
+- [Krátký návod na spuštění](#kratký-návod-na-instalaci-a-spuštění)
+- [Kde běží](#aplikace-běží-na)
+- [REST API](#rest-api-endpointy)
+- [Architektura](#architektura-c4)
+- [Možná vylepšení](#možná-vylepšení)
+- [Poznámky](#testováno-v-postmann-i-v-prohlížeči)
+
+---
+
+# GitHub Event Monitor
+
+## O čem to je :*
+
+Tato aplikace monitoruje veřejné události z GitHubu  
+(pomocí [https://api.github.com/events](https://api.github.com/events)),  
+a poskytuje metriky prostřednictvím REST API.
+
+---
+
+## Co aplikace dělá
+
+- Pravidelně získává data z GitHubu (každou minutu)
+- Sleduje tyto události:
+  - `WatchEvent` (když někdo sleduje repozitář)
+  - `PullRequestEvent` (když někdo otevře nebo pracuje na PR)
+  - `IssuesEvent` (práce s issues)
+- Ukládá je do paměti a poskytuje metriky pomocí vlastního API
+
+---
+
+## Krátký návod na instalaci a spuštění
+
+1. Instalace závislostí a spuštění:
+   ```bash
+   pip install flask requests pandas matplotlib
+   python ukol2.py
+
 
 
 
