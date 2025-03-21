@@ -8,7 +8,8 @@
 - [Kde běží](#aplikace-běží-na)
 - [REST API](#rest-api-endpointy)
 - [Architektura](#architektura-c4)
-- [Testováno v Postmann i v prohlížeči](#testováno-v-postmann-i-v-prohlížeči)
+- [Testováno v Postmann i v prohlížeči](#testovano-v-postmann-i-v-prohlizeci)
+
 
 
 ---
@@ -104,7 +105,7 @@ Pozn,
 In memory /ev. by se dal aplikovat databaze apod, v nasem pripade memory pocitace/
 
 
-# Testováno v Postmann i v prohlizeci
+## Testovano v Postmann i v prohlizeci
 
 Status OK ... vystup v json , screenshot grafu prilozen.
 
