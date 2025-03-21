@@ -1,7 +1,7 @@
 # API_MONITOR
 
 Obsah
-[O cem to je](*Ocemtoje)  <br>
+[O cem to je](#Ocemtoje)  <br>
  
 Co dela <br>
 Kratky navod na spusteni <br>
@@ -16,7 +16,7 @@ Poznamky<br>
 
 # GitHub Event Monitor
 
-*O čem to je :*
+##O čem to je :*
 
 
 Tato aplikace monitoruje veřejné události z GitHubu 
