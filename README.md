@@ -16,7 +16,7 @@ Poznamky<br>
 
 # GitHub Event Monitor
 
-##O čem to je :*
+## O čem to je :*
 
 
 Tato aplikace monitoruje veřejné události z GitHubu 
