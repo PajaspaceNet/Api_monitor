@@ -103,7 +103,7 @@ Pozn,
 In memory /ev. by se dal aplikovat databaze apod, v nasem pripade memory pocitace/
 
 
-# Testovano v Postmann i v prohlizeci
+# Testováno v Postmann i v prohlizeci
 
 Status OK ... vystup v json , screenshot grafu prilozen.
 
