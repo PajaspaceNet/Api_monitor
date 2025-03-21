@@ -8,8 +8,7 @@
 - [Kde běží](#aplikace-běží-na)
 - [REST API](#rest-api-endpointy)
 - [Architektura](#architektura-c4)
-- [Možná vylepšení](#možná-vylepšení)
-- [Poznámky](#testováno-v-postmann-i-v-prohlížeči)
+- [Testováno](#testováno-v-postmann-i-v-prohlížeči)
 
 ---
 
