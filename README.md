@@ -13,36 +13,6 @@
 
 ---
 
-# GitHub Event Monitor
-
-## O čem to je :*
-
-Tato aplikace monitoruje veřejné události z GitHubu  
-(pomocí [https://api.github.com/events](https://api.github.com/events)),  
-a poskytuje metriky prostřednictvím REST API.
-
----
-
-## Co aplikace dělá
-
-- Pravidelně získává data z GitHubu (každou minutu)
-- Sleduje tyto události:
-  - `WatchEvent` (když někdo sleduje repozitář)
-  - `PullRequestEvent` (když někdo otevře nebo pracuje na PR)
-  - `IssuesEvent` (práce s issues)
-- Ukládá je do paměti a poskytuje metriky pomocí vlastního API
-
----
-
-## Krátký návod na instalaci a spuštění
-
-1. Instalace závislostí a spuštění:
-   ```bash
-   pip install flask requests pandas matplotlib
-   python ukol2.py
-
-
-
 
 # GitHub Event Monitor
 
